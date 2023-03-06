@@ -1,0 +1,24 @@
+﻿body{
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+svg{
+  fill: none;
+  stroke-width: 1px;
+  stroke: black;
+}
+
+@keyframes anim-line {
+  to{
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes anim-fill {
+  to{
+    fill: black;
+  }
+}
